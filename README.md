@@ -1,2 +1,4 @@
-# uw-batch-aip
-Documentation of a workflow for batch metadata creation and bagging SIPs for UW Libraries Digital Preservation.
+## Batch metadata creation and bagging for Preservation AIPs
+This reponsitory includes a Python script and documentation created in the UW Libraries Preservation department in Spring 2022 for batch metadata creation and bagging AIPs. 
+
+The original use case was a large set of working files from the creation of the UW CONTENTdm [Music Library Digital Scores Collection](https://content.lib.washington.edu/mmweb/index.html). These were grouped into three batches, each of which contained dozens of subfolders named by call number. Each of these subfolders represented an individually-cataloged physical item with similarly structured metadata that should be packaged with appropriate metadata for preservation. The CONTENTdm collection had been cataloged at the collection level, and _some_ of the individual digitized scores had been cataloged as digital resources.
