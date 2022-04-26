@@ -1,0 +1,4 @@
+## Workflow for batch processing with create_metadata.py
+1. Use the working metadata spreadsheet to rename all packages with `=concatenate("rename '", [current folder name], "' ", [SIP name])`. "Short title" is a manually-created field with a keyword from the full work title. "SIP name" is a concatenation of the short title and OCLC number in UW's house style. Paste the highlighted cells into a plaintext document in the same directory as the SIPs, save it as `rename.bat`, and find-and-replace all single quotes to double quotes. (I can't get Excel to concatenate double quotes properly and the batch script doesn't like single quotes in file paths.) Double-click the batch script to run, then remove it.
+<img src=https://user-images.githubusercontent.com/75695487/165340803-e0a69849-7241-49f1-925f-86f9de9a7ff7.PNG>
+
